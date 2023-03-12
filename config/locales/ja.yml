@@ -12,3 +12,10 @@ ja:
         image: アイコン画像
         current_password: 現在のパスワード
         password_confirmation: 確認用パスワード
+      room:
+        room_name: 施設名
+        room_introduction: 施設紹介
+        room_image: 施設画像
+        price: 料金
+        address: 住所
+      

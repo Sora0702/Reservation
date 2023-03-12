@@ -7,4 +7,7 @@ class User < ApplicationRecord
 
   validates :name, presence: true
   validates :introduction, length: { maximum: 300 }
+
+  has_many :rooms, foreign_key: 'user_id'
+
 end
